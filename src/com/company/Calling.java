@@ -3,7 +3,7 @@ package com.company;
 import java.util.TimerTask;
 
 public class Calling extends TimerTask {
-    String msg;
+    private String msg;
 
     Calling(String msg) {
         this.msg = msg;
